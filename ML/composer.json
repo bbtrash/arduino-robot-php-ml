@@ -1,0 +1,36 @@
+{
+    "name": "rubix/cifar-10",
+    "type": "project",
+    "description": "Use the famous CIFAR-10 dataset to train a multi-layer neural network to recognize images of cats, dogs, and other things.",
+    "homepage": "https://github.com/RubixML/CIFAR10",
+    "license": "MIT",
+    "keywords": [
+        "batch norm", "cifar 10", "cifar-10", "classification", "cross validation", "dataset",
+        "data science", "dropout", "elu", "example project", "exponential linear unit",
+        "feed forward", "image recognition", "image classification", "machine learning", "ml",
+        "multilayer perceptron", "neural network", "php", "php ml", "rubix ml", "rubixml",
+        "tutorial"
+    ],
+    "authors": [
+        {
+            "name": "Andrew DalPino",
+            "homepage": "https://github.com/andrewdalpino",
+            "role": "Lead Engineer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-gd": "*",
+        "rubix/ml": "^1.0"
+    },
+    "scripts": {
+        "train": "@php train.php",
+        "test": "@php validate.php"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
