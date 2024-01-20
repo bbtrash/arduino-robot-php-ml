@@ -1,4 +1,8 @@
 /vendor/
 /ML/vendor/
-/ARDUINO/arduino_private.ino
+/ARDUINO/arduino_private/
 .idea/
+/ML/models/
+/ML/real_life/
+/ML/test/
+/ML/validate/
